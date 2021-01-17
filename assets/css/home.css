@@ -1,0 +1,79 @@
+body{
+    /* text-align: center; */
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color:rgb(91, 10, 241);
+    font-family: 'Potta One', cursive;
+    
+}
+
+#contacts-list-container ul{
+    padding:0;
+    list-style: none;
+}
+
+.contact{
+    padding:3px 10px;
+    border:1px solid white;
+    background-color: black;
+    box-shadow: 1px 1px 1px 1x lightgrey;
+    color:white;
+    display:flex;
+    
+}
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between; 
+    width:90%;
+}
+
+.contact .delete-button{
+    width:10%;
+    padding:3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.contact .delete-button a{
+    color: white;
+    background-color: red;
+}
+.contact:hover{
+    background-color: grey;
+    
+}
+.details p{
+    font-size: 15px;
+    font-weight: 900;
+    margin:5px 0;
+    color: rgb(255, 255, 255);
+}
+
+#new-contact-form {
+    display:flex;
+    justify-content: center;
+    margin:30px;
+}
+#new-contact-form input{
+    margin-right:15px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    background-color: lightgrey;
+    text-align: center;
+    box-shadow: 2px 2px grey;
+    
+    
+}
+#new-contact-form button{
+    background-color: rgb(91, 10, 241);
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+    font-family: 'Potta One', cursive;
+}
